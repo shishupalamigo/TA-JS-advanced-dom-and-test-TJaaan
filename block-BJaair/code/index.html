@@ -11,19 +11,16 @@
 </head>
 <body>
 
-    <h1 class=" bg-black text-4xl text-white h-12 flex justify-center items-center">User Cards</h1>
+    <h1 class=" bg-black text-4xl text-white flex justify-center items-center">User Cards</h1>
 
-    <div class="container flex  mt-12 flex-wrap justify-between"></div>
+    <ul class="container flex  mt-12 flex-wrap justify-between"></ul>
+
     <div class="form-container flex justify-center items-center">
-        <form action="" class="form w-1/4 bg-red-700 px-8 py-8">
-            <input type="text" class="block w-full my-4 py-2 px-2 rounded-lg input" placeholder="Title">
-            <select name="category" class="block w-full py-2 px-2 rounded-lg my-6 select">
-                <option value="select category">Select Category</option>
-                <option value="sports">Sports</option>
-                <option value="movies">Movies</option>
-                <option value="learn">Learn</option>
-            </select>
-            <input type="submit" value="Add New Item" class="block w-full my-4 py-2 px-2 rounded-lg text-white bg-black">
+        <form action="" class="form w-2/6 bg-red-700 px-8 py-8">
+            <input type="text" class="block w-full my-4 py-2 px-2 rounded-lg input" placeholder="Enter the Title" name="title">
+            <input type="text" class="block w-full my-4 py-2 px-2 rounded-lg input" placeholder="Enter The Category" name="category">
+
+            <button type="submit" value="" class="block w-full my-4 py-2 px-2 rounded-lg text-white bg-black">Add New Item</button>
         </form>
     </div>    
 
