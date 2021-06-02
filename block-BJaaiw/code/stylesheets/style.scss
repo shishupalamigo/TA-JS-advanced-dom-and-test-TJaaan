@@ -1,0 +1,17 @@
+html {
+   font-size: 16px; 
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    line-height: 1.8;
+}
+
+canvas { 
+    background: rgb(247, 208, 208); 
+    display: block; 
+    margin: 2rem auto; 
+}
