@@ -9,25 +9,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <section class="header">
-            <h1>DRAG AND DROP HTML5</h1>
-        </section>
-        <section class="form-section">
-            <form id="form">
-                <fieldset class="fieldset flex">
-                    <input id="title" type="text" placeholder="Enter the title"/>
-                    <input type="submit" class="btn" value="Add Items"/>
-                </fieldset>
-            </form>
-            <article class="article">
-                <ul class="display container">
-                    
-                </ul>
 
-            </article>
-        </section>
-    </main>
+    <h1>DRAG AND DROP HTML5</h1>
+    <div class="adder">
+        <input type="text" class="input" placeholder="Add items in your list"/>
+        <span class="add">+</span>
+      </div>
+      <ul>
+        <li class="draggable" draggable="true">JavaScript</li>
+        <li class="draggable" draggable="true">SCSS</li>
+        <li class="draggable" draggable="true">HTML5</li>
+        <li class="draggable" draggable="true">Awesome DnD</li>
+        <li class="draggable" draggable="true">Follow me</li>
+      </ul>
 
     <script src="index.js"></script>
 </body>
