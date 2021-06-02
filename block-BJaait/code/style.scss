@@ -1,0 +1,84 @@
+@import "reset";
+
+html {
+    font-size: 16px;
+}
+body{
+    height:100vh;
+    background-color: rgb(15, 36, 221);;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.article{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading,.para{
+    padding:1rem 0;
+}
+.header{
+    color:white;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3rem;
+    padding:0.5rem;
+}
+.fieldset{
+    display: flex;
+    flex-direction:column;
+}
+.form-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+h2{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+}
+fieldset{
+    padding:2rem;
+}
+input{
+    height:2rem;
+    margin-top:0.5rem;
+}
+.btn{
+    background-color: black;
+    color:white;
+    padding:1rem 0;
+    height:3rem;
+    font-size:1.5rem;
+    display: inline-block;
+}
+.container {
+    padding: 1rem;
+    width:100%;
+    margin: 1rem auto;
+}
+  
+.draggable {
+    padding: 1rem;
+    background-color: white;
+    cursor: move;
+}
+.draggable.dragging {
+    opacity: .5;
+}
+ul li{
+    margin-top:1rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
