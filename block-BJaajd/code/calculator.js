@@ -1,4 +1,9 @@
-function add() {}
+function add(...numbers) {
+  retun numbers.reduce((acc, cv) => {
+    acc = acc + cv;
+    return acc;
+  }, 0);
+};
 
 function subtract() {}
 
