@@ -1,5 +1,5 @@
 function add(...numbers) {
-  retun numbers.reduce((acc, cv) => {
+  return numbers.reduce((acc, cv) => {
     acc = acc + cv;
     return acc;
   }, 0);
