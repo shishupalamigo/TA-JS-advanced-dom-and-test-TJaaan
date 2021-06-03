@@ -5,15 +5,29 @@ function add(...numbers) {
   }, 0);
 };
 
-function subtract() {}
+function subtract(a, b) {
+  return a - b;
+}
 
-function sum() {}
+function sum(a, b) {
+  return a + b;
+}
 
-function multiply() {}
+function multiply(a, b) {
+  return a * b;
+}
 
-function power() {}
+function power(a, number) {
+  return Math.pow(a, number);
+}
 
-function factorial() {}
+function factorial(a) {
+  let fact = 1;
+  for (let i = 1; i <= a; i++) {
+    fact *= i;
+  }
+  return fact;
+}
 
 module.exports = {
   add,
